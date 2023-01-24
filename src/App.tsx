@@ -1,15 +1,15 @@
-import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.scss";
-import Home from "./screens/home/Home";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Profile from "./screens/profile/Profile";
+import NavBar from "./components/navbar/NavBar";
 import AboutUs from "./screens/aboutus/AboutUs";
+import Home from "./screens/home/Home";
+import Profile from "./screens/profile/Profile";
 import RoadMap from "./screens/roadmap/RoadMap";
-import Header from "./components/header/Header";
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <Router>
         <Routes>
           <Route path={"/"} element={<Home />}></Route>

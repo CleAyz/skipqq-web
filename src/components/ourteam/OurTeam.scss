@@ -1,10 +1,28 @@
+@import "../../assets/colors/colors.scss";
+
 .ourteam-container {
-    margin-top: 8rem;
-    background-color: red;
+  background-color: $complementary-second;
+  height: 480px;
+  padding-top: 195px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 768px) {
-    .ourteam-container {
-        margin-top: 6rem;
-    }
+  .ourteam-container {
+    margin-top: 6rem;
+  }
 }

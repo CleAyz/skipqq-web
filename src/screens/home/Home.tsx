@@ -8,7 +8,6 @@ import Welcome from "../../components/welcome/Welcome";
 const Home = () => {
   return (
     <div>
-      <Header />
       <Welcome />
       <Character />
       <OurTeam />

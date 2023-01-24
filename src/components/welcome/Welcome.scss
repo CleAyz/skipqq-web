@@ -1,9 +1,28 @@
+@import "../../assets/colors/colors.scss";
+
 .welcome-container {
-    background-color: blue;
+  background-color: $secondary;
+  height: 480px;
+  padding-top: 195px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 768px) {
-    .welcome-container {
-        margin-top: 6rem;
-    }
+  .welcome-container {
+    margin-top: 6rem;
+  }
 }

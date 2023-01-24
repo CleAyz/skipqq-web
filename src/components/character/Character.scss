@@ -1,4 +1,22 @@
+@import "../../assets/colors/colors.scss";
+
 .character-container {
-  background-color: green;
-  margin-top: 6rem;
+  background-color: $complementary-first;
+  height: 480px;
+  padding-top: 195px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
 }
