@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Header from "../../components/header/Header";
 
 const RoadMap = () => {
   return (
-    <div>RoadMap</div>
-  )
-}
+    <div>
+      <Header />
+      Roadmap
+    </div>
+  );
+};
 
-export default RoadMap
+export default RoadMap;
