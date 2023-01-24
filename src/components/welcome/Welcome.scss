@@ -1,0 +1,9 @@
+.welcome-container {
+    background-color: blue;
+}
+
+@media screen and (max-width: 768px) {
+    .welcome-container {
+        margin-top: 6rem;
+    }
+}
