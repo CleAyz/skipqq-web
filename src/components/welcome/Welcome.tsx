@@ -4,7 +4,7 @@ import "./Welcome.scss";
 const Welcome = () => {
   return (
     <div className="welcome-container">
-      <div className="content">Header - Welcome</div>
+      <div className="content">Header - Welcome John Tan</div>
       <div className="description">Description</div>
     </div>
   );
