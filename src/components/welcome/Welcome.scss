@@ -1,9 +1,13 @@
 @import "../../assets/colors/colors.scss";
 
 .welcome-container {
-  background-color: $secondary;
+  background-color: white;
   height: 480px;
-  padding-top: 195px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .content {
@@ -12,6 +16,10 @@
   align-items: center;
   font-size: 44px;
   font-weight: bold;
+  img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .description {
